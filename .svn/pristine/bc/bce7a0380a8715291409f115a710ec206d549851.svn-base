@@ -1,0 +1,59 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+
+    lintOptions {
+        checkReleaseBuilds false
+        disable 'MissingTranslation'
+    }
+
+    defaultConfig {
+        applicationId "jp.co.MarutouCompack.Printer"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName '1.0.0'
+    }
+
+    applicationVariants.all { variant ->
+        if(variant.buildType.name == "release"){
+            variant.outputs.all {
+                def versionCode = "rev" + String.format("%03d", defaultConfig.versionCode)
+                def versionName = defaultConfig.versionName
+                outputFileName = "PrinterMCV_${versionName}_${versionCode}_${variant.buildType.name}.apk"
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation project(':marutoucommonlibrary')
+    implementation project(':afilechooser')
+    implementation 'com.android.support:gridlayout-v7:28.0.0'
+    implementation (name:'PrinterSDK', ext:'aar')
+    implementation 'com.google.code.gson:gson:2.9.0'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.17'
+}
+repositories {
+    flatDir{
+        dirs 'libs'
+    }
+}

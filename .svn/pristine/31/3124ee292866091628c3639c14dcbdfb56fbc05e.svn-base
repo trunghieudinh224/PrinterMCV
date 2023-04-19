@@ -1,0 +1,4 @@
+include ':app',':marutoucommonlibrary',":afilechooser",":printerlibrary"
+project(':marutoucommonlibrary').projectDir = new File(settingsDir, '../MarutouLibProject/marutoucommonlibrary')
+project(':afilechooser').projectDir = new File(settingsDir, '../MarutouLibProject/afilechooser')
+project(':printerlibrary').projectDir = new File(rootDir, 'saneisdk_v1.2.1/printerlibrary/')

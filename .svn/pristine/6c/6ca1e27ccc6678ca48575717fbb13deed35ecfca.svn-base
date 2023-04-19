@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrinterMCV.iml" filepath="$PROJECT_DIR$/.idea/modules/PrinterMCV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-724819014/PrinterMCV.afilechooser.iml" filepath="$PROJECT_DIR$/.idea/modules/-724819014/PrinterMCV.afilechooser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PrinterMCV.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PrinterMCV.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1060302679/PrinterMCV.marutoucommonlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/-1060302679/PrinterMCV.marutoucommonlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/saneisdk_v1.2.1/printerlibrary/PrinterMCV.printerlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/saneisdk_v1.2.1/printerlibrary/PrinterMCV.printerlibrary.iml" />
+    </modules>
+  </component>
+</project>

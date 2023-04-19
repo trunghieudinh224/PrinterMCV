@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="appname_ts">45sp</dimen>
+    <dimen name="version_ts">18sp</dimen>
+    <dimen name="printer_info_ts">28sp</dimen>
+    <dimen name="common_ts">22sp</dimen>
+
+    <dimen name="pd_logo">65dp</dimen>
+    <dimen name="pd_info">95dp</dimen>
+    <dimen name="pdl_text">10dp</dimen>
+    <dimen name="pdt_info">60dp</dimen>
+    <dimen name="min_heigh_common">52dp</dimen>
+</resources>
