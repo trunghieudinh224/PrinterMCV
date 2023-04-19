@@ -1,0 +1,135 @@
+<resources>
+    <string name="r_num"> </string>
+
+    <!-- アクティビティ関連 -->
+    <string name="app_name">Printer MCV</string>
+
+    <!-- エラーメッセージ -->
+    <string name="ERROR_UNKNOWN">不明なエラーが発生しました。</string>
+    <!-- 端末系 -->
+    <string name="ERROR_NOT_ARROW_TERMINAL">登録外端末での起動を確認しました。</string>
+    <string name="ERROR_CREATE_USERDATA">ユーザー情報にエラーがあります。</string>
+    <string name="ERROR_CERTIFICATION">認証に失敗しました。</string>
+    <string name="ERROR_SETUP">登録外端末での起動を確認しました。</string>
+    <!-- ファイル入力系 -->
+    <string name="ERROR_FILE_SYSD_READ">システムデータの取得に失敗しました。</string>
+    <string name="ERROR_FILE_SY2D_READ">システムデータ2の取得に失敗しました。</string>
+    <string name="ERROR_FILE_IDXF_READ">インデックスデータの取得に失敗しました。</string>
+    <string name="ERROR_FILE_SH2F_READ">商品マスタデータの取得に失敗しました。</string>
+    <string name="ERROR_FILE_KO2F_READ">顧客ハイブリッドデータの取得に失敗しました。</string>
+    <string name="ERROR_FILE_GNMF_READ">グループ名の取得に失敗しました。</string>
+    <string name="ERROR_FILE_GIDX_READ">顧客インデックスの取得に失敗しました。</string>
+    <string name="ERROR_FILE_HYNM_READ">ハイブリッドカウンタ名称データの取得に失敗しました。</string>
+    <string name="ERROR_FILE_HYBF_READ">ハイブリッド料金表データの取得に失敗しました。</string>
+    <string name="ERROR_FILE_WRITE_CREATE_KO2F">顧客ハイブリッドデータの作成に失敗しました。</string>
+    <string name="ERROR_FILE_WRITE_KO2F">顧客ハイブリッドデータの格納に失敗しました。</string>
+    <string name="ERROR_FILE_LESF_READ">リースデータの取得に失敗しました。</string>
+    <string name="ERROR_FILE_HTCM_READ">コメントデータの取得に失敗しました。</string>
+    <string name="ERROR_FILE_TNTF_READ">担当者一覧データの取得に失敗しました。</string>
+    <string name="ERROR_FILE_SHKF_READ">集金区分データの取得に失敗しました。</string>
+    <string name="ERROR_FILE_KNKF_READ">検針区分データの取得に失敗しました。</string>
+    <string name="ERROR_FILE_HNKF_READ">販売区分データの取得に失敗しました。</string>
+    <string name="ERROR_FILE_HMEF_READ">販売明細データの取得に失敗しました。</string>
+    <string name="ERROR_FILE_KOBF_READ">容器データの取得に失敗しました。</string>
+    <string name="ERROR_FILE_HANF_READ">店舗データの取得に失敗しました。</string>
+    <string name="ERROR_FILE_HANF_LIST">店舗リストデータの取得に失敗しました。</string>
+    <string name="ERROR_FILE_BUSF_READ">取引区分・品目名称データの取得に失敗しました。</string>
+    <string name="ERROR_FILE_KOKF_READ">顧客データの取得に失敗しました。</string>
+    <string name="ERROR_FILE_KOKF_BACK">顧客データバックアップデータの取得に失敗しました。</string>
+    <string name="ERROR_FILE_GASF_READ">ガス料金データの取得に失敗しました。</string>
+    <string name="ERROR_FILE_CARD_SYSF_READ">メモリーカード内システムデータの取得に失敗しました。</string>
+    <string name="ERROR_FILE_POINT_READ">ポイントデータの取得に失敗しました。</string>
+    <string name="ERROR_FILE_SEARCH_READ">先頭の未検針顧客の取得に失敗しました。</string>
+    <string name="ERROR_FILE_KENSUMILIST_READ">検針データの取得に失敗しました。</string>
+    <string name="ERROR_FILE_KOST_READ">顧客別商品単価データの取得に失敗しました。</string>
+    <!-- ファイル出力系 -->
+    <string name="ERROR_FILE_WRITE_CREATE_CUSDATE">顧客データの作成に失敗しました。</string>
+    <string name="ERROR_FILE_WRITE_CUSDATE">顧客データの書込みに失敗しました。</string>
+    <string name="ERROR_FILE_WRITE_CREATE_SYSDAT">システムデータの作成に失敗しました。</string>
+    <string name="ERROR_FILE_WRITE_SYSDAT">システムデータの書込みに失敗しました。</string>
+    <string name="ERROR_FILE_WRITE_SYSDAT_BACKUP_DIRECTORY">システムデータのバックアップ先ディレクトリの取得に失敗しました。</string>
+    <string name="ERROR_FILE_WRITE_CREATE_BACKUP_SYSDAT">システムデータのバックアップデータの作成に失敗しました。</string>
+    <string name="ERROR_FILE_WRITE_BACKUP_SYSDAT">システムデータのバックアップデータの書込みに失敗しました。</string>
+    <string name="ERROR_FILE_WRITE_CREATE_SYSDAT2">システムデータ2の作成に失敗しました。</string>
+    <string name="ERROR_FILE_WRITE_SYSDAT2">システムデータ2の書込みに失敗しました。</string>
+    <string name="ERROR_FILE_WRITE_CREATE_HMEF">販売データの作成に失敗しました。</string>
+    <string name="ERROR_FILE_WRITE_HMEF">販売データの書込みに失敗しました。</string>
+    <string name="ERROR_FILE_WRITE_HISTORY">履歴データの書込みに失敗しました。</string>
+    <string name="ERROR_FILE_WRITE_KENSUMILIST">検針データの書込みに失敗しました。</string>
+    <!-- レジストリー系 -->
+    <string name="ERROR_REG_IDX">インデックスの取得に失敗しました。</string>
+    <string name="ERROR_REG_AUTODATE">検針日付自動取得有無の取得に失敗しました。</string>
+    <string name="ERROR_REG_SHOWSUMI">検針済み表示設定の取得に失敗しました。</string>
+    <string name="ERROR_REG_FTP_ADDR_GET">FTPアドレスの取得に失敗しました。</string>
+    <string name="ERROR_REG_FTP_ADDR_SET">FTPアドレスの設定に失敗しました。</string>
+    <string name="ERROR_REG_FTP_USER_GET">FTPユーザー名の取得に失敗しました。</string>
+    <string name="ERROR_REG_FTP_USER_SET">FTPユーザー名の設定に失敗しました。</string>
+    <string name="ERROR_REG_FTP_PASS_GET">FTPパスワードの取得に失敗しました。</string>
+    <string name="ERROR_REG_FTP_PASS_SET">FTPパスワードの設定に失敗しました。</string>
+    <string name="ERROR_REG_CARD_PATH_GET">バックアップデータ保存先の取得に失敗しました。</string>
+    <string name="ERROR_REG_CARD_PATH_SET">バックアップデータ保存先の設定に失敗しました。</string>
+    <string name="ERROR_REG_DATA_PATH_GET">検針データ保存先の取得に失敗しました。</string>
+    <string name="ERROR_REG_DATA_PATH_SET">検針データ保存先の設定に失敗しました。</string>
+    <string name="ERROR_REG_COPY_PATH_GET">検針データのバックアップ保存先の取得に失敗しました。</string>
+    <string name="ERROR_REG_COPY_PATH_SET">検針データのバックアップ保存先の設定に失敗しました。</string>
+    <string name="ERROR_REG_KENSUMI_GET">検針済みデータ表示有無の取得に失敗しました。</string>
+    <string name="ERROR_REG_KENSUMI_SET">検針済みデータ表示有無の設定に失敗しました。</string>
+    <string name="ERROR_REG_PDA_GET">Bluetoothポート番号の取得に失敗しました。</string>
+    <string name="ERROR_REG_PDA_SET">Bluetoothポート番号の設定に失敗しました。</string>
+    <string name="ERROR_REG_NOWKENSINCNT_GET">検針済み顧客件数の取得に失敗しました。</string>
+    <string name="ERROR_REG_NOWKENSINCNT_SET">検針済み顧客件数の設定に失敗しました。</string>
+    <string name="ERROR_REG_SHOWKENSIN_GET">前回終了時の顧客インデックの取得に失敗しました。</string>
+    <string name="ERROR_REG_SHOWKENSIN_SET">前回終了時の顧客インデックの設定に失敗しました。</string>
+    <string name="ERROR_REG_PDA_BUFFER_GET">PDAバッファーの取得に失敗しました。</string>
+    <string name="ERROR_REG_PDA_BUFFER_SET">PDAバッファーの設定に失敗しました。</string>
+    <string name="ERROR_REG_PRINTER_ADDR_GET">プリンターアドレスの取得に失敗しました。</string>
+    <string name="ERROR_REG_PRINTER_ADDR_SET">プリンターアドレスの設定に失敗しました。</string>
+    <string name="ERROR_REG_DATE_GET">日付設定モードの取得に失敗しました。</string>
+    <string name="ERROR_REG_DATE_SET">日付設定モードの設定に失敗しました。</string>
+    <string name="ERROR_REG_TDATA_PATH_GET">提案くんデータ保存先の取得に失敗しました。</string>
+    <string name="ERROR_REG_TDATA_PATH_SET">提案くんデータ保存先の設定に失敗しました。</string>
+    <string name="ERROR_REG_TCOPY_PATH_GET">提案くんバックアップ保存先の取得に失敗しました。</string>
+    <string name="ERROR_REG_TCOPY_PATH_SET">提案くんバックアップ保存先の設定に失敗しました。</string>
+    <string name="ERROR_REG_TCARD_PATH_GET">提案くんの外部バックアップ保存先の取得に失敗しました。</string>
+    <string name="ERROR_REG_TCARD_PATH_SET">提案くんの外部バックアップ保存先の設定に失敗しました。</string>
+    <string name="ERROR_REG_TSHOWINDEX_GET">提案くんの前回終了時顧客番号の取得に失敗しました。</string>
+    <string name="ERROR_REG_TSHOWINDEX_SET">提案くんの前回狩猟時顧客番号の設定に失敗しました。</string>
+    <string name="ERROR_REG_BTADDRESS_GET">Bluetoothアドレスの取得に失敗しました。</string>
+    <string name="ERROR_REG_BTADDRESS_SET">Bluetoothアドレスの設定に失敗しました。</string>
+    <!-- バックアップ系 -->
+    <string name="ERROR_MEMORY_CARD">メモリーカードの読取りに失敗しました。</string>
+    <string name="ERROR_MEMORY_CARD_COPY">メモリーカードへの書込みに失敗しました。</string>
+    <string name="ERROR_MEMORY_BACK_COPY">メモリーカードからの復元に失敗しました。</string>
+    <!-- 検針業務系 -->
+    <string name="ERROR_KENSIN_CUS_GET">現在顧客の取得に失敗しました。</string>
+    <string name="ERROR_KENSIN_GAS_NAME_GET">ガス料金名の取得に失敗しました。</string>
+    <string name="ERROR_KENSIN_GAS_PAY_GET">ガス料金の計算に失敗しました。</string>
+    <string name="ERROR_KENSIN_TOYU_PAY_GET">灯油料金の計算に失敗しました。</string>
+    <string name="ERROR_KENSIN_INPUT_REGIST">検針結果の登録に失敗しました。</string>
+    <string name="ERROR_KENSIN_NYUKIN">入金の登録に失敗しました。</string>
+    <!-- ガス料金計算系 -->
+    <string name="ERROR_GASRATE_START_CALC">ガス料金の計算に失敗しました。</string>
+    <string name="ERROR_GASRATE_GET_SY2FILE">システムデータ2の取得に失敗しました。</string>
+    <string name="ERROR_GASRATE_GET_SH2FILE">取引区分データの取得に失敗しました。</string>
+    <string name="ERROR_GASRATE_CALC_LEAS">リース売上の計算に失敗しました。</string>
+    <!-- 顧客検索系 -->
+    <string name="ERROR_SEARCH_CODE">顧客コード検索でエラーが発生しました。</string>
+    <string name="ERROR_SEARCH_KANA">顧客カナ検索でエラーが発生しました。</string>
+    <string name="ERROR_SEARCH_TELL">顧客TEL検索でエラーが発生しました。</string>
+    <string name="ERROR_SEARCH_META">顧客メーター機番検索でエラーが発生しました。</string>
+    <!-- 結果送受信 -->
+    <string name="ERROR_SEND_NOT_BLUETOOTH">Bluetooth非対応端末です。</string>
+    <string name="ERROR_ENABLE_BLUETOOTH">Bluetoothの有効化に失敗しました。</string>
+    <string name="ERROR_FILE_SEND_RECEIV">データの送受信に失敗しました。</string>
+    <!-- 印刷 -->
+    <string name="ERROR_PRINT_GET_INFO">プリンター情報の取得に失敗しました。</string>
+    <string name="ERROR_PRINT_SET_INFO">プリンター情報の設定に失敗しました。</string>
+    <string name="ERROR_PRINT_PRINT_FAILED">レシートの印刷に失敗しました。</string>
+    <string name="ERROR_PRINT_UNKNOWN">印刷で不明なエラーが発生しました。</string>
+    <string name="ERROR_PRINT_OTHER_CONNECT">対応機種以外のプリンタと接続しています。</string>
+    <string name="ERROR_PRINT_SET_DATA">印刷データの設定に失敗しました。</string>
+    <string name="ERROR_PRINT_COVER_OPEN">プリンタ用紙がないかカバーが空いています。</string>
+    <string name="ERROR_PRINT_TEMP_ERROR">プリンタヘッドの温度異常です。</string>
+    <string name="ERROR_PRINT_LOW_BATTERY">プリンターのバッテリーが少なくなっています。</string>
+    <string name="ERROR_CHECK_RESTORE">リストア時の顧客チェックでエラーが発生しました。</string>
+</resources>

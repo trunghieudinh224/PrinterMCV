@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="BackgroundInfo">
+        <item name="android:background">@drawable/border_radius</item>
+        <item name="android:paddingTop">@dimen/pdt_info</item>
+        <item name="android:paddingLeft">@dimen/pd_info</item>
+        <item name="android:paddingRight">@dimen/pd_info</item>
+    </style>
+
+    <style name="TitleStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="VersionStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/version_ts</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="TextTitleCommonStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/min_heigh_common</item>
+        <item name="android:textSize">@dimen/common_ts</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="TextCommonStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/min_heigh_common</item>
+        <item name="android:paddingLeft">@dimen/pdl_text</item>
+        <item name="android:textSize">@dimen/common_ts</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+</resources>
